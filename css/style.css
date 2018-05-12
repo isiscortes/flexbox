@@ -100,6 +100,7 @@ img{
 	flex-wrap: nowrap;
 	flex-direction: row;
 	justify-content: center;
+	padding: 1%;
 }
 
 .imagenes2{
@@ -107,6 +108,7 @@ img{
 	flex-wrap: nowrap;
 	flex-direction: row;
 	justify-content: center;
+	padding: 1%;
 
 }
 
@@ -139,34 +141,24 @@ form{
 
 }
 
-.svg-inline--fa{
-    color:  #428bca;
+
+
+.iconoazul{
+	color:  #428bca;
     display: block;
 	margin: auto;
-
-}
-
-.noir{
-	color: black;
-	background-color: white;
-	border-radius: 40%;
-    padding: 5%;
 }
 
 footer{
     padding: 20px;
     text-align: center; 
     color: white;
-
-}
-
-
-.bloquefooter{
 	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: row;
 	justify-content: center;
+	flex-direction: column;
     }
+
+
 
 .fondogris{
 	background-color: #696969;
@@ -175,3 +167,8 @@ footer{
 .fondopastel{
 	background-color: rgba(0,0,0,0.1);
 }
+
+#img2, #img3{
+	flex-grow: 2;
+}
+
