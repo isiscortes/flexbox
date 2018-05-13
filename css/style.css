@@ -3,6 +3,14 @@
 	box-sizing: border-box;
 }
 
+a:link {
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+}
+
+
+
 body{
 	margin: 0;
 	padding: 0;
@@ -39,7 +47,7 @@ input{
 	color: white;
     width: 45%;
     padding: 12px 20px;
-	border-radius: 3%;
+	border-radius: 1%;
 }
 
 
@@ -51,8 +59,15 @@ input{
 	color: white;
 	padding: 2%;
 	border-radius: 3%;
+	font-size:20px;
+	cursor: pointer;
 }
 
+button:hover:not(.active){
+	background-color: black;
+	color: white;
+	border:solid 1px black;
+}
 
 
 .opacidad{
